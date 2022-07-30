@@ -1,0 +1,62 @@
+.sidebar{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    /* border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(228, 228, 228); */
+    padding-top: 5px;
+    z-index: 200;
+  }
+.home-icon{
+    height: 24px;
+    display: block;
+}
+.explore-icon{
+    height: 24px;
+    display: block;
+}
+.subscriptions-icon{
+    height: 24px;
+    display: block;
+}
+.originals-icon{
+    height: 24px;
+    display: block;
+}
+.music-icon{
+    height: 24px;
+    display: block;
+}
+.library-icon{
+    height: 24px;
+    display: block;
+}
+.side-icon-div{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 74px;
+    flex-direction: column;
+    
+}
+.side-icon-div div{
+    font-family: roboto, Arial;
+    font-size: 10px;
+}
+.side-icon-div:hover{
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+}
+.side-icon{
+    height: 24px;
+    margin-bottom: 6px;
+}
+.icon-text{
+    font-family: roboto, Arial;
+    font-size: x-small;
+    text-align: center;
+}

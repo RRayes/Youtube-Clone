@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Clone</title>
+
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <div class="sidebar">
+
+      <div class="home-icon-div side-icon-div">
+        <img class="home-icon side-icon" src="icons/home.svg" alt="">
+        <div>Home</div>
+      </div>
+      <div class="explore-icon-div side-icon-div">
+        <img class="explore-icon side-icon" src="icons/explore.svg" alt="">
+        <div>Explore</div>
+      </div>
+      <div class="subscriptions-icon-div side-icon-div">
+        <img class="subscriptions-icon side-icon" src="icons/subscriptions.svg" alt="">
+        <div>Subscriptions</div>
+      </div>
+
+      <div class="originals-icon-div side-icon-div">
+        <img class="originals-icon side-icon" src="icons/originals.svg" alt="">        
+        <div>Originals</div>
+      </div>
+      <div class="music-icon-div side-icon-div">
+        <img class="music-icon side-icon" src="icons/youtube-music.svg" alt="">
+        <div>Youtube Music</div>
+      </div>
+
+      <div class="library-icon-div side-icon-div">
+        <img class="library-icon side-icon" src="icons/library.svg" alt="">
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+         <img class="upload-icon" src="icons/upload.svg" alt="">
+         <div class="tooltip">Create</div> 
+        </div>
+        <div class="youtube-apps-container">
+          <img class="apps-icon" src="icons/youtube-apps.svg" alt="">
+          <div class="tooltip">Youtube App</div>
+        </div>
+        
+        <div class="notifications-div">
+          <div class="notifications-container">
+            <img class="notifications-icon" src="icons/notifications.svg" alt="">
+            <div class="notification-count">6</div>
+            <div class="tooltip">Notifications</div>
+          </div>          
+        </div>
+
+        <img class="channel-icon" src="icons/my-channel.jpeg" alt="">
+      </div>      
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" >
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-1.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-2.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+              Markiplier
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-3.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-4.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+              Markiplier
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-5.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+          <div class="video-time">19:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-6.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+              Markiplier
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-13.webp">
+          <div class="video-time">9:37:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-13.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              JavaScript Game Development Course for Beginners
+            </p>
+            <p class="video-author">
+              freeCodeCamp.org
+            </p>
+            <p class="video-stats">
+              92K views &#183; 1 day ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-14.webp">
+          <div class="video-time">49:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-14.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Cosmic Queries – Quantum Catastrophe with Neil deGrasse Tyson & Brian Cox
+            </p>
+            <p class="video-author">
+              StarTalk
+            </p>
+            <p class="video-stats">
+              97K views &#183; 17 day ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-15.webp">
+          <div class="video-time">9:37:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-15.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Future Computers Will Be Radically Different
+            </p>
+            <p class="video-author">
+              Veritasium
+            </p>
+            <p class="video-stats">
+               7.8M views &#183; 4 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-16.webp">
+          <div class="video-time">5:21</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-16.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Lord of the Rings The Ride of the Rohirrim Full Battle, 4k film editing, Parliament Cinema...
+            </p>
+            <p class="video-author">
+              Veritasium
+            </p>
+            <p class="video-stats">
+               6.9M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-17.webp">
+          <div class="video-time">5:21</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-17.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              System Design: Why is Kafka fast?            </p>
+            <p class="video-author">
+              Veritasium
+            </p>
+            <p class="video-stats">
+              256k views &#183; 3 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-18.webp">
+          <div class="video-time">5:21</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="thumbnails/channel-18.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">             
+               How To Fix A Slow WordPress Site - WordPress Speed Optimization Tutorial
+            </p>
+            <p class="video-author">
+               WPCasts
+            </p>
+            <p class="video-stats">
+               78K views &#183; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>   
+  </body>
+</html>
